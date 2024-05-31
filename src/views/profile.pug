@@ -1,0 +1,9 @@
+doctype html
+html 
+  head 
+    title User Profile
+  body 
+    img(referrerpolicy="no-referrer" src=picture)
+    h1 Welcome #{name}!
+    h2 Email: #{email}
+    a(href='/api/auth/logout') Logout
